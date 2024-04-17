@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+h2,h3,h4,p{
+    margin:0;
+}
+*{
+    box-sizing: inherit;
+}
+#card{
+    width:600px;
+    height:400px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    overflow:hidden;
+}
+.top{
+    height:45%;
+    width:100%;
+    padding:30px;
+}
+.bottom{
+    height:55%;
+    width:100%;
+}
+.left{
+    vertical-align: top;
+    display:inline-block;
+    height:100%;
+    width:50%;
+    background-color: #2ab2af;
+    padding:20px;
+}
+.right{
+    vertical-align: top;
+    display:inline-block;
+    height:100%;
+    width:50%;
+    background-color: #45c4bf;
+    padding:20px;
+}
+.top h3{
+    color:#c0df34;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.top h2{
+    color:#2ab2af
+}
+.top p{
+    color: #98a6bd;
+}
+.left h4, p, .right h4, li{
+    color:#e5eff5;
+}
+button{
+    width:100%;
+    background-color:#c0df34;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    color:#e5eff5;
+    margin-block:10px;
+}
+span{
+    font-size:30px;
+    font-weight: 700;
+}
+.left h4{
+    margin-bottom:15px;
+}
+#detail{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right ul{
+    list-style-type: none;
+    padding:0;
+    
+}
+button:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: #dcff41;
+    color:grey;
+    font-weight: 600;
+}
